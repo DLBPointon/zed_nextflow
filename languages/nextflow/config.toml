@@ -1,0 +1,12 @@
+name = "nextflow"
+grammar = "nextflow"
+path_suffixes = ["nf"]
+line_comments = ["// "]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "'", end = "'", close = true, newline = false },
+    { start = "`", end = "`", close = true, newline = false },
+]
+tab_size = 4

@@ -1,0 +1,16 @@
+id = "nextflow"
+name = "nextflow"
+version = "0.4.0"
+schema_version = 1
+description = "Nextflow language support."
+authors = ["DLBPointon <dp24@sanger.ac.uk>"]
+repository = "https://github.com/DLBPointon/nextflow"
+
+[grammars.nextflow]
+repository = "https://github.com/matthuska/tree-sitter-nextflow"
+commit = "9c88c07b5c096237ab324e4f53b6a7fb3d2e9d9c"
+
+
+[language_servers.nextflow-language-server]
+name = "Nextflow Language Server"
+language = "nextflow"
