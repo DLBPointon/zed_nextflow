@@ -5,7 +5,7 @@ This is my attempt to get a Nextflow plugin for Zed working.
 A few of us at Sanger use Zed rather than VSCode and it would be nice to see everything lit up as in VSCode!
 
 
-Treesitter: https://github.com/matthuska/tree-sitter-nextflow
+Treesitter: https://github.com/nextflow-io/tree-sitter-nextflow
 
 LSP: https://github.com/nextflow-io/language-server/releases/tag/v25.04.1
 

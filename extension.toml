@@ -10,6 +10,9 @@ repository = "https://github.com/DLBPointon/nextflow"
 repository = "https://github.com/matthuska/tree-sitter-nextflow"
 commit = "9c88c07b5c096237ab324e4f53b6a7fb3d2e9d9c"
 
+#repository = "https://github.com/nextflow-io/tree-sitter-nextflow"
+#commit = "d1a28d9e8923e5af81775bff02e4eb7a6d5ea889"
+
 
 [language_servers.nextflow-language-server]
 name = "Nextflow Language Server"
