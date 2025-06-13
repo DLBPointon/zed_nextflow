@@ -26,7 +26,7 @@ impl NextflowExtension {
     ) -> Result<NlsBinary> {
         let mut args: Option<Vec<String>> = None;
 
-        let (platform, arch) = zed::current_platform();
+        let (platform, _arch) = zed::current_platform();
 
         let environment = match platform {
             zed::Os::Mac | zed::Os::Linux => Some(worktree.shell_env()),
